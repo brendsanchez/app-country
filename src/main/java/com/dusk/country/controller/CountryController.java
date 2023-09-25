@@ -29,7 +29,7 @@ public class CountryController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", useReturnTypeSchema = true),
             @ApiResponse(responseCode = "404", useReturnTypeSchema = true, content = @Content(schema = @Schema(
-                    example = "{\"code\": 404, \"message\": \"not found country o city\"}"))),
+                    example = "{\"code\": 404, \"message\": \"not found countries\"}"))),
             @ApiResponse(responseCode = "500", useReturnTypeSchema = true, content = @Content(schema = @Schema(
                     example = "{\"code\": 500, \"message\": \"error intern\"}"))),
     })
@@ -43,7 +43,7 @@ public class CountryController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", useReturnTypeSchema = true),
             @ApiResponse(responseCode = "404", useReturnTypeSchema = true, content = @Content(schema = @Schema(
-                    example = "{\"code\": 404, \"message\": \"not found country o city\"}"))),
+                    example = "{\"code\": 404, \"message\": \"not found country\"}"))),
             @ApiResponse(responseCode = "500", useReturnTypeSchema = true, content = @Content(schema = @Schema(
                     example = "{\"code\": 500, \"message\": \"error intern\"}"))),
     })

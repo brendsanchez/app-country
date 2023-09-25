@@ -11,6 +11,6 @@ public abstract class CountryException extends RuntimeException {
     }
 
     public HttpStatus getHttpStatus(){
-        return httpStatus;
+        return this.httpStatus;
     }
 }
